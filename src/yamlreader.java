@@ -25,7 +25,9 @@ public class yamlreader {
 		      System.out.println(output);	
 		      
 			rule mainrule = (rule) yaml.load(output);
-			
+		      System.out.println(mainrule);
+		      System.out.println(mainrule.metadata);
+
 		      System.out.println(mainrule.condition);
 		
 		}
